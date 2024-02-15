@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* container secion starts */
+.container{
+    border: 2px double darkgray;
+    padding: 15px;
+    /* background-color: yellow; */
+}
+/* container section ends  */
+
+/* logo section starts */
+.logo{
+    text-align: center;
+    /* background-color: tan; */
+    margin: 20px 0;
+}
+/* logo section ends  */
+
+/* navigation section starts  */
+.navigation{
+    /* background-color: blue; */
+    text-align: center;
+    /* border: 2px solid black; */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 16px;
+}
+
+.navigation .navigation_link{
+    /* background-color: brown; */
+    margin: 20px 0;
+    list-style-type: none;
+    padding: 10px 0;
+    /* padding: 2px 3px 4px top, left-right, bottom; */
+    /* display: flex; */
+}
+
+.navigation .navigation_link li {
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    display: inline;
+    /* background-color: teal; */
+    margin: 5px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navigation .navigation_link li:nth-child(1){
+    color: red;
+}
+
+.navigation .navigation_link li:hover{
+    color: blue;
+}
+/* navigation section ends  */
+
+/* gallery section begins */
+.gallery{
+    /* background-color: cyan; */
+    margin: 0 3px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.gallery .gallery_images{
+    /* padding: 10px; */
+    margin: 0 4px;
+}
+/* gallery section ends  */
+
+/* description section starts  */
+.description{
+    /* background-color: lightgreen; */
+    margin: 15px 0;
+    /* padding: 15px 0; */
+    text-align: center;
+}
+
+/* description section ends  */
